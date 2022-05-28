@@ -8,7 +8,7 @@ bool OOB(int x, int y) // (x,y)가 범위밖이라면 true
 {
 	return x<0 || y<0 || x>=R || y>=S;
 }
-int how_many(int x, int y)
+int how_many(int x, int y) // (x,y)와 인접한 8점 중 'o'의 개수 
 {
 	int cnt = 0;
 	for(int i=0; i<8; i++)
