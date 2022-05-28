@@ -11,7 +11,7 @@ int main()
 		char st = s[0];
 		v[st].push_back(s);
 	}
-	for(int i='a'; i<'z'; i++) sort(v[i].begin(), v[i].end());
+	for(int i='a'; i<='z'; i++) sort(v[i].begin(), v[i].end());
 	while(N--)
 	{
 		char x; cin>>x;
