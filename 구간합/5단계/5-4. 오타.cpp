@@ -23,7 +23,8 @@ int main()
 		{
 			if(s[i] == '(') ans++;
 		}
-		cout<<ans;
+		if(mini >= 0) cout<<ans;
+		else cout<<0;
 	}
 	else if(sum[n] == -2)
 	{
